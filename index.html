@@ -1,16 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhargavchoppali</title>
+    <title>component library</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
-    Hi! I am Bhargav choppali nice to see you here
-    basically i am pursuing B.tech in NSRIT college in computer science and engineering.
 
-    hello there now i am working on CLI apps and javascript i will showcase it here tommorow.
-    my hobbies are listening music on spotify playing mobile games etc.
+<body>
+    <h1>Hi welcome to Bhargav's component library</h1>
+    <p>Here i want to make a library which will make my projects look good and consistent </p>
+    <hr>
+
+    <h2>typography</h2>
+
+    <h1>probabily this will be the biggest heading</h1>
+    <h2>this will be the second biggest heading</h2>
+    <p>this paragraph will have <strong>bold </strong>text</p>
+    <p>this is the normal text like paragraph it will wrap at end like many paragraphs would do</p>
+    <small>this is the smaller text in this paragraph</small>
+
+    <hr>
+
+    <h1>container</h1>
+
+    <h2>Fluid container</h2>
+    <div class="container">this will go till the end of the page</div>
+
+    <h2>centre container</h2>
+    <div class="container container-center">this will be centric to the page it will go till the specified width</div>
+
+    <hr>
+    <h1>links</h1>
+
+    <a class="link link-primary" href="/">primary link</a>
+    <a class="link link-secondary" href="/">secondary link</a>
+
+    <hr>
+    <h1>lists</h1>
+    <p>this list will not have the bullet</p>
+    <ul class="list-non-bullet">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ul>
+    <h2>unordered inline list</h2>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">inline list one</li>
+        <li class="list-item-inline">inline list two</li>
+        <li class="list-item-inline">inline list three</li>
+    </ul>
+    <h3>reverse orderlist</h3>
+
+    <ol reversed>
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ol>
+
+    <hr>
+
+    <h1>nav</h1>
+    <nav class="navigation container">
+        <div class="nav-brand">
+            IAMBRAND
+        </div>
+        <ul class="list-non-bullet nav-pills">
+
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+    <h1 class="hero">header</h1>
+
+    <header>
+        <img class="hero-img" src="hacker.svg" />
+
+        <h1 class="hero-heading">Bhargav Choppali the <span class="heading-inverted">web developer</span></h1>
+    </header>
+    <hr>
+    <h1>SECTIONS</h1>
+    <section class="section">
+        <div class="container-center">
+            <h1>white section</h1>
+        <p>I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript.I build websites that delight and inform. I do it well.
+
+            I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. The list of projects I follow on GitHub will give you a good idea of the types of tools I’d prefer to be using, and my Instapaper “Starred” list will give you a glimpse into the reading material I find interesting enough to share.
+        </p>
+        </div>
+        
+    </section>
+
+    <section class="section ow">
+        <div class="container-center">
+            <h1>off white section</h1>
+        <p>I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript.I build websites that delight and inform. I do it well.
+
+            I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. The list of projects I follow on GitHub will give you a good idea of the types of tools I’d prefer to be using, and my Instapaper “Starred” list will give you a glimpse into the reading material I find interesting enough to share.</p>
+        </div>
+        
+    </section>
+    <hr>
+    <h1>footer</h1>
+    <footer class="footer">
+        <Div class="footer-header">some small heading inside footer</Div>
+        <ul class="social-links list-non-bullet">
+             <li class="list-item-inline">
+                <a class="link" href="/">
+                    social one</a></li>
+             <li class="list-item-inline"><a class="link" href="/">
+                social two</a></li></li>
+             <li class="list-item-inline"><a class="link" href="/">
+                social three</a></li></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
