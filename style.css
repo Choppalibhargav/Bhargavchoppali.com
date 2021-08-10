@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
 
  :root{
      --primary-color:#3B82F6;
@@ -61,7 +62,8 @@ hr{
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 2rem;
+    font-family: 'MonteCarlo', cursive;
 }
 
 .navigation .nav-pills{
