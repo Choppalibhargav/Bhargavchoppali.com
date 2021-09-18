@@ -1,5 +1,10 @@
 # my portfolio
 
-hello there this my new text btw tommorow i will release my portfolio at present i learned about
-1.javascript
-2.repl.it
+# pages added
+1.Home page
+2.Projects page 
+3.blogs page
+
+# programming language used
+1.HTML
+2.CSS
